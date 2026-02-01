@@ -6,15 +6,20 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Amatic SC', cursive;
+    overflow: hidden; /* This prevents the scrollbars from ever appearing */
 }
 
 .container {
     text-align: center;
     background: white;
-    padding: 150px;
+    padding: 50px;
     border-radius: 200px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: visible;
+    position: relative;
 }
+
+
 
 img {
     border-radius: 2cm;
@@ -59,4 +64,6 @@ button {
     color: white;
     position: relative; /* Needed for the "run away" effect */
     font-family: 'Amatic SC', cursive;
+    transition: 0.1s;
+    z-index: 999;
 }
