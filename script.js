@@ -13,7 +13,7 @@ function handleYesClick() {
     const music = document.getElementById('bg-music');
     music.play();
     document.getElementById('question').innerText = "Yay! See you on the 14th! ❤️";
-    document.getElementById('gif-display').src = "heart.gif"; // Happy GIF
+    document.getElementById('gif-display').src = "tom.gif"; // Happy GIF
     
     // Hide buttons after clicking yes
     document.querySelector('.buttons').style.display = 'none';
