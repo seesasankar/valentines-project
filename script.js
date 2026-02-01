@@ -1,5 +1,7 @@
 function moveButton() {
     const noBtn = document.getElementById('noButton');
+
+    noBtn.style.position = 'fixed';
     
     // Calculate random positions
     const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
