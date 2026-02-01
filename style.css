@@ -17,8 +17,11 @@ body {
 }
 
 img {
-    width: 250px;
     border-radius: 2cm;
+    max-width: 50%;  /* Ensures the GIF never goes outside the container */
+    height: auto;     /* Maintains the correct proportions */
+    display: block;
+    margin: 0 auto;
 }
 
 h1 {
